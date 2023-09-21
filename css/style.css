@@ -1,0 +1,70 @@
+@import url("./reset.css");
+
+.container{
+    max-width: 850px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.centerlize{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/** Navigation */
+nav{
+    background-color: #9bd2ff;
+    height: 45px;
+}
+nav span{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    margin-left: 10px;
+}
+
+/** Main Section  */
+#start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+/** Typing  */
+#written{
+    font-weight: 800;
+    color: #9bd2ff;
+}
+#remainder{
+    font-weight: 800;
+    color: #595959;
+}
+
+/*  */
+
+#message{
+    height: 50px;
+    width: 80%;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    background-color: white;
+    border-radius: 6px;
+}
+#message:empty{
+    display: none;
+}
